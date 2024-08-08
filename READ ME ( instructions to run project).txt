@@ -1,0 +1,26 @@
+Guidelines to run project:
+
+Open folder users in vs code or any tool 
+
+make sure these packages are installed inside backend folder using command prompt/vs code terminal
+1.cd backend
+2.npm init -y
+3.npm install express mongoose jsonwebtoken bcryptjs cors body-parser
+
+
+make sure these packages are installed inside frontend folder using command prompt/vs code terminal
+1.cd frontend
+2.npm install axios react-router-dom
+3.npm install antd
+
+
+1) commands to run backend:
+     a) cd backend
+     b) node server.js
+
+2)commands to run frontend:
+     a) cd frontend
+     b) npm start
+
+after running project click on 'don't have an account' register yourself 
+click on 'already have an account ' which leads to login form. Login with your registered credentials where it takes to User list page, It displays all registered users.
